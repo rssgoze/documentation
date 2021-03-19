@@ -2,7 +2,7 @@ image: python:latest
 pages:
   stage: deploy
   only:
-    - main
+    - master
   script:
     - rm -rf public
     - pip install mkdocs-material
