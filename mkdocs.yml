@@ -1,0 +1,56 @@
+site_name: RSS
+theme:
+  name: material
+  custom_dir: overrides
+  language: kr
+  logo: static/logo.png
+  favicon: static/logo.png
+  palette:
+    scheme: slate
+    primary: blue grey
+    accent: light green
+  font:
+    text: Noto Sans KR
+    code: Nanum Gothic Coding
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.top
+    - header.autohide
+extra_css:
+  - https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@latest/build/styles/vs2015.min.css
+  - static/extra.css
+extra_javascript:
+  - https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@latest/build/highlight.min.js
+  - https://cdn.jsdelivr.net/npm/tablesort@latest/src/tablesort.min.js
+  - static/config.js
+plugins: []
+#  - search
+markdown_extensions:
+  - toc:
+      permalink: true
+  - meta
+  - abbr
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+  - pymdownx.highlight:
+      use_pygments: false
+      linenums_style: pymdownx.inline
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.tabbed
+  - footnotes
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+#hide:
+#  - navigation
+copyright: Copyright &copy; 2021
