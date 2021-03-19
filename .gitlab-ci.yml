@@ -4,6 +4,7 @@ pages:
   only:
     - main
   script:
+    - rm -rf public
     - pip install mkdocs-material
     - mkdocs build --site-dir public
   artifacts:
