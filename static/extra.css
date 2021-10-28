@@ -1,0 +1,20 @@
+@charset 'utf-8';
+
+.md-grid {
+  max-width: initial;
+}
+
+.md-typeset, .md-typeset .admonition, .md-typeset details, .md-typeset code {
+  font-size: 0.85rem;
+}
+.md-typeset .footnote {
+  font-size: 0.75rem;
+}
+
+/* circle thing */
+.append-circle, .headerlink, .footnote-ref {
+  -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+  user-select: none;          /* Likely future */      
+}
